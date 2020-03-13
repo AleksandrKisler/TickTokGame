@@ -29,11 +29,15 @@ public class  TickTackToe {
                 break;
             }
         }
+        showEnd();
 
+    }
+
+    private static void showEnd() {
         System.out.println("ИГРА ЗАКОНЧЕНА");
     }
 
-        private static void initMap()
+    private static void initMap()
         {
             map = new char[SIZE][SIZE];
             for (int i = 0; i < SIZE; i++)
